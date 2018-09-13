@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28935" started-at="2018-09-13T02:27:42Z" finished-at="2018-09-13T02:28:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28935" started-at="2018-09-13T02:27:42Z" finished-at="2018-09-13T02:28:11Z">
+      <class name="com.mycompany.tests.HomePageMenusTest">
+        <test-method status="PASS" signature="beforeSuit()[pri:0, instance:com.mycompany.tests.HomePageMenusTest@612679d6]" name="beforeSuit" is-config="true" duration-ms="27" started-at="2018-09-13T02:27:42Z" finished-at="2018-09-13T02:27:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mycompany.tests.HomePageMenusTest@612679d6]" name="beforeMethod" is-config="true" duration-ms="15601" started-at="2018-09-13T02:27:42Z" finished-at="2018-09-13T02:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateMwebtable()[pri:6, instance:com.mycompany.tests.HomePageMenusTest@612679d6]" name="validateMwebtable" duration-ms="7076" started-at="2018-09-13T02:27:57Z" finished-at="2018-09-13T02:28:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMwebtable -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mycompany.tests.HomePageMenusTest@612679d6]" name="afterMethod" is-config="true" duration-ms="6207" started-at="2018-09-13T02:28:04Z" finished-at="2018-09-13T02:28:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.mycompany.tests.HomePageMenusTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
