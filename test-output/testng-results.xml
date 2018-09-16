@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="8" total="9" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28935" started-at="2018-09-13T02:27:42Z" finished-at="2018-09-13T02:28:11Z">
+  <suite name="Default suite" duration-ms="22127" started-at="2018-09-14T01:01:38Z" finished-at="2018-09-14T01:02:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28935" started-at="2018-09-13T02:27:42Z" finished-at="2018-09-13T02:28:11Z">
+    <test name="Default test" duration-ms="22127" started-at="2018-09-14T01:01:38Z" finished-at="2018-09-14T01:02:00Z">
       <class name="com.mycompany.tests.HomePageMenusTest">
-        <test-method status="PASS" signature="beforeSuit()[pri:0, instance:com.mycompany.tests.HomePageMenusTest@612679d6]" name="beforeSuit" is-config="true" duration-ms="27" started-at="2018-09-13T02:27:42Z" finished-at="2018-09-13T02:27:42Z">
+        <test-method status="PASS" signature="beforeSuit()[pri:0, instance:com.mycompany.tests.HomePageMenusTest@74ad1f1f]" name="beforeSuit" is-config="true" duration-ms="23" started-at="2018-09-14T01:01:38Z" finished-at="2018-09-14T01:01:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuit -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mycompany.tests.HomePageMenusTest@612679d6]" name="beforeMethod" is-config="true" duration-ms="15601" started-at="2018-09-13T02:27:42Z" finished-at="2018-09-13T02:27:57Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mycompany.tests.HomePageMenusTest@74ad1f1f]" name="beforeMethod" is-config="true" duration-ms="13702" started-at="2018-09-14T01:01:38Z" finished-at="2018-09-14T01:01:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="validateMwebtable()[pri:6, instance:com.mycompany.tests.HomePageMenusTest@612679d6]" name="validateMwebtable" duration-ms="7076" started-at="2018-09-13T02:27:57Z" finished-at="2018-09-13T02:28:04Z">
+        <test-method status="PASS" signature="getTableData()[pri:9, instance:com.mycompany.tests.HomePageMenusTest@74ad1f1f]" name="getTableData" duration-ms="1568" started-at="2018-09-14T01:01:52Z" finished-at="2018-09-14T01:01:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateMwebtable -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mycompany.tests.HomePageMenusTest@612679d6]" name="afterMethod" is-config="true" duration-ms="6207" started-at="2018-09-13T02:28:04Z" finished-at="2018-09-13T02:28:11Z">
+        </test-method> <!-- getTableData -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mycompany.tests.HomePageMenusTest@74ad1f1f]" name="afterMethod" is-config="true" duration-ms="6828" started-at="2018-09-14T01:01:53Z" finished-at="2018-09-14T01:02:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

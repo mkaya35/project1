@@ -12,7 +12,7 @@ public class HomePage extends PageFactoryBase {
 	public HomePage(WebDriver driver)
 	{
 		super(driver);
-		List<WebElement> dashlinks;
+		
 	}
 	
 	
@@ -99,11 +99,27 @@ public class HomePage extends PageFactoryBase {
 	public boolean validateMainsite(){
 		js.highlight(mainSiteButton, driver);
  		js.drawBorder(mainSiteButton, driver);
- 		mainSiteButton.click();
  		return mainSiteButton.isDisplayed();
  		
  	}
 	
+	public void readWebTableData() {
+		webTableButton.click();
+        WebElement wlist= driver.findElement(By.xpath("//*[@id=\"testaccounts\"]"));
+		
+		List<WebElement> listcols= wlist.findElements(By.xpath("//*[@id=\"testaccounts\"]/tbody/tr[1]/td"));
+		System.out.println("Number of Columns= "+ listcols.size());	
+		
+		List<WebElement> listrows= wlist.findElements(By.xpath("//*[@id=\"testaccounts\"]/tbody/tr"));
+		System.out.println("Number of Rows= "+ listrows.size());
+		
+				
+		for(int i=0;i<listrows.size();i++) {
+			System.out.println("Contents of the table: "+listrows.get(i).getText());
+		
+			
+		}
+	}
 	
 	
 	

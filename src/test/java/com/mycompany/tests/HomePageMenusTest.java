@@ -62,21 +62,6 @@ public class HomePageMenusTest extends TestBase{
 		Assert.assertTrue(flag);  
 		System.out.println(homePage.getTitle());
 		
-		WebElement wlist= driver.findElement(By.xpath("//*[@id=\"testaccounts\"]"));
-		
-		List<WebElement> listcols= wlist.findElements(By.xpath("//*[@id=\"testaccounts\"]/tbody/tr[1]/td"));
-		System.out.println("Number of Columns= "+ listcols.size());	
-		
-		List<WebElement> listrows= wlist.findElements(By.xpath("//*[@id=\"testaccounts\"]/tbody/tr"));
-		System.out.println("Number of Rows= "+ listrows.size());
-		
-				
-		for(int i=0;i<listrows.size();i++) {
-			System.out.println("Contents of the table: "+listrows.get(i).getText());
-		
-			
-		}
-		
 }
   @Test(priority=7)
   public void validateMwaiting(){
@@ -91,6 +76,14 @@ public class HomePageMenusTest extends TestBase{
 		
 		boolean flag = homePage.validateMainsite();
 		Assert.assertTrue(flag); 
+		
+}
+  
+  @Test(priority=9)
+  public void getTableData(){
+		
+		 homePage.readWebTableData();
+		
 		
 }
   

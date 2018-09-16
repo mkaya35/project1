@@ -6,8 +6,8 @@
       <class name="com.mycompany.tests.HomePageMenusTest">
         <methods>
           <include name="afterMethod"/>
+          <include name="getTableData"/>
           <include name="beforeMethod"/>
-          <include name="validateMwebtable"/>
           <include name="beforeSuit"/>
         </methods>
       </class> <!-- com.mycompany.tests.HomePageMenusTest -->
